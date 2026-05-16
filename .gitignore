@@ -1,0 +1,10 @@
+# VS Code settings and workspace configurations
+.vscode/
+
+# Python Virtual Environment folder (Crucial!)
+myenv/
+
+# Python bytecode cache (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
