@@ -29,4 +29,4 @@ x = np.array([1, 2, 3])
 w = np.array([0.5, 0.3, 0.1])
 
 prediction = np.dot(x, w)
-print(f"prediction: {prediction}")
+print(f"prediction: {prediction}") 
