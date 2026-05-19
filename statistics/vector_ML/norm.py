@@ -74,4 +74,7 @@ print(magnitude1_w)
 # pytorch(torch) : torch implementation
 v_tensor = torch.tensor([5.0, -3.1])
 v_magnitude = torch.norm(v_tensor)
+v_norm = v_tensor / v_magnitude
 print(v_tensor)
+print(f"normalized vector: {v_norm}")
+print(f"magnitude of vector: {torch.norm(v_norm)}")

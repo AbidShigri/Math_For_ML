@@ -16,3 +16,5 @@ print(vector_array.size) # how many value inside the array
 
 # Step 3 — Learn Operations
 
+# zero matrix
+z = np.array()
