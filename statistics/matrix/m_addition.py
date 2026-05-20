@@ -71,3 +71,7 @@ print(square_error)
 mse = np.mean(square_error)
 print(mse)
 print(f"final mse loss: {mse:.2f}")
+#  :.2f this called format specification
+#  : start for formating
+#  .2 show two digit after two decimal
+# f floating-point number
